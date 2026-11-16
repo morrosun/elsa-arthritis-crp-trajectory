@@ -1,0 +1,27 @@
+{
+  "title": "Analysis code for: Repeated CRP and fibrinogen measurements add no reliable information beyond a single baseline measurement for disability change in adults with arthritis (ELSA)",
+  "upload_type": "software",
+  "description": "Python analysis code for a negative re-appraisal of repeated inflammatory measurement in the English Longitudinal Study of Ageing. High-sensitivity C-reactive protein and fibrinogen are re-extracted from five nurse-visit tables (2004-2019); participants with doctor-diagnosed arthritis at wave 2 and valid CRP at waves 2, 4 and 6 (n=610; 575 in the primary model) are followed for the rate of change in ADL/IADL disability at waves 7-9. Single-baseline, mean-plus-slope and group-based trajectory models are compared in marginal linear models with cluster-robust standard errors; the primary analysis follows an internally frozen plan; sensitivity analyses cover unknown vital status (upper bound and delta-beta grid), medication adjustment by BNF class, negative controls, bootstrap and permutation calibration, and a two-wave CHARLS direction-consistency check. Includes cohort construction, trajectory models, the design comparison, all sensitivity analyses and figure generation. No respondent-level data are included.",
+  "creators": [
+    {
+      "name": "Wang, Kai",
+      "affiliation": "The Affiliated Huai'an No.1 People's Hospital of Nanjing Medical University, Huai'an, Jiangsu, China"
+    }
+  ],
+  "keywords": [
+    "C-reactive protein",
+    "fibrinogen",
+    "inflammation trajectory",
+    "disability",
+    "activities of daily living",
+    "ELSA",
+    "CHARLS",
+    "group-based trajectory modelling",
+    "negative re-appraisal",
+    "measurement reliability"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "language": "eng",
+  "access_right": "open"
+}

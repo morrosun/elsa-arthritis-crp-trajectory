@@ -1,0 +1,4 @@
+# Store and check out every file byte-for-byte.
+# The frozen plan is identified by the SHA-256 in PRESPEC_SAP.sha256, so no
+# end-of-line conversion may be applied on clone.
+* -text

@@ -1,0 +1,36 @@
+# Restricted source data — never commit
+data/
+data_raw/
+*.dta
+*.rds
+*.sav
+*.RData
+*.rdata
+
+# Respondent-level / derived result files
+*.csv
+*.tsv
+*.parquet
+outputs/
+out/
+
+# Manuscript and supplement build artefacts (contain unpublished text)
+manuscript/
+supplementary/
+*.docx
+*.html
+*.pdf
+
+# Environment / secrets
+.env
+*.env
+*_token*
+ghp_*
+
+# Python / OS noise
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+*.baiduyun.uploading.cfg
